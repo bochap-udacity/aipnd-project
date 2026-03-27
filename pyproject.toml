@@ -1,0 +1,20 @@
+[project]
+name = "aipnd-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "ipython>=9.10.0",
+    "matplotlib>=3.10.8",
+    "scipy>=1.17.1",
+    "torch>=2.10.0",
+    "torchinfo>=1.8.0",
+    "torchvision>=0.25.0",
+    "universal-pathlib>=0.3.10",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.7",
+]
